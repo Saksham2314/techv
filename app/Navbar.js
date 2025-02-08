@@ -13,12 +13,12 @@ export default function Navbar() {
 
       {/* Right: Buttons */}
       <div className="flex space-x-4">
-        <Link href="/login">
+        <Link href="./login">
           <button className="border border-white text-white px-4 py-2 rounded-md hover:bg-customBlue3 transition">
             Login
           </button>
         </Link>
-        <Link href="/signin">
+        <Link href="./signin">
           <button className="border border-white text-white px-4 py-2 rounded-md hover:bg-customBlue3 transition">
             Register
           </button>

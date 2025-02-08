@@ -35,7 +35,7 @@ export default function Home() {
           </div>
           <div className="flex-1">
             <img
-              src="/clinical-trial.jpg"
+              src="./clinical-trial.jpg"
               alt="Clinical Trial"
               className="rounded-lg shadow"
             />

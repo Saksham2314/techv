@@ -20,7 +20,7 @@ export default function Home() {
             </div>
             <div className="flex-1">
               <img
-                src="/clinical-trial.jpg" // Replace with your image URL
+                src="./clinical-trial.jpg" // Replace with your image URL
                 alt="Clinical Trial"
                 className="rounded-lg shadow"
               />

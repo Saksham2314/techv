@@ -6,17 +6,17 @@ const slides = [
   {
     title: "Volunteer Participation",
     description: "Find volunteers ready to contribute to your clinical trials.",
-    image: "/volunteers.jpg",
+    image: "./volunteers.jpg",
   },
   {
     title: "Enhanced Drug Monitoring",
     description: "Leverage data to improve drug safety and efficacy.",
-    image: "/drug.jpg",
+    image: "./drug.jpg",
   },
   {
     title: "Streamlined Compliance",
     description: "Ensure your trials meet regulatory standards easily.",
-    image: "/compliance.jpg",
+    image: "./compliance.jpg",
   },
 ];
 

@@ -45,7 +45,7 @@ export default function SignUp() {
             </button>
           </form>
           <p className="mt-4 text-center text-gray-600">
-            Already have an account? <a href="/login" className="text-customBlue underline">Login</a>
+            Already have an account? <a href="./login" className="text-customBlue underline">Login</a>
           </p>
         </div>
       </div>
