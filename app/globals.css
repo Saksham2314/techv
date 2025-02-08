@@ -2,20 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+html {
+  scroll-behavior: smooth;
+  /* background: linear-gradient(to bottom, #a7e2d3, #6eb188); */
+
+}
+.carousel-container {
+  max-width: 900px; /* Slightly larger than slide width */
+  margin: 0 auto; /* Center the carousel */
+  padding: 16px; /* Space around the slides */
+  background-color: #52aa8d; /* Light gray background */
+  border-radius: 12px; /* Rounded corners for the background */
+  box-shadow: 0 4px 6px rgba(4, 68, 41, 0.1); /* Subtle shadow */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.carousel {
+  display: flex;
+  gap: 16px; /* Space between slides */
+  animation: slide 5s linear infinite; /* Adjust speed */
+}
+
+.carousel-slide {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  100% {
+    transform: translateX(-100%);
+  }
 }
